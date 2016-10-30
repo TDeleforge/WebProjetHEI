@@ -1,0 +1,465 @@
+h1.index{
+	color : white;
+	text-align: center;
+}
+
+
+.header h1{
+	width: 100%;
+	height: 40px;
+	background-color: #FFC36E;
+	text-align: center;
+	color: #582900;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	opacity: 0.7;
+}
+
+
+.index{
+	background-image: url("../img/image2.jpg");
+	background-size: 100%;
+	opacity: 0.5;
+	font-family: 'Raleway', sans-serif;
+}
+
+
+.index a:link{
+	color: #FACC2E;
+	text-decoration: none;
+}
+
+
+.index a:hover{
+	color: #FACC2E;
+}
+
+
+.index a:visited{
+	color: #FACC2E;
+}
+
+
+.site{
+	background-color: #BDBDBD;
+	font-family: 'Raleway', sans-serif;
+	padding : 25px;
+}
+
+
+.inline-block{
+	display: inline-block;
+}
+
+
+.block{
+	display: block;
+}
+
+
+#menu{
+	width : 97%;
+	height: 40px;
+	background-color: #5B3500;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	opacity: 0.8;
+}
+
+
+#menu ul{
+	margin: 0px;
+}
+
+
+ul#menu li{
+	display : inline-block;
+	width: 18%;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	margin-left: -2px;
+	margin-right: -2px;
+	padding-top: 9px;
+	padding-bottom: 11px;
+	position: relative;
+}
+
+
+ul#menu a:link{
+	color: white;
+	text-decoration: none;
+}
+
+
+ul#menu a:visited{
+	color: white;
+	text-decoration: none;
+}
+
+
+ul#menu a:hover{
+	color: orange;
+	text-decoration: none;
+}
+
+
+.transition_princi{
+	transition: width 1s, height 1s, 0.5s;
+}
+
+
+.transition_princi:hover{
+	transform:scale(1.3,1.3);
+}
+
+
+.texte-accueil{
+	width: 49%;
+	height: 456px;
+	float: left;
+	background-color: lightgrey;
+	text-align: justify;
+	margin-top: 20px;
+	margin-right: 8px;
+	margin-left: 4px;
+}
+
+
+.image_accueil{
+	width: 50%;
+	height: 400px;
+	text-align: left;
+	margin-top: 5px;
+}
+
+
+.texte-plus{
+	width: 50%;
+	height: 100%;
+	background-color: lightgrey;
+	text-align: center;
+}
+
+
+.liste_projets{
+	position: relative;
+	float: left;
+	text-align: left;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-top: 3px;
+}
+
+
+.tous_les_projets{
+	position: relative;
+	float: right;
+	width: 86%;
+	height: 100%;
+	text-align: left;
+	margin-right: 0px;
+	margin-top: 19px;
+	background-color: #BDBDBD;
+}
+
+
+.tous_les_projets h1{
+	font-family: 'Raleway', sans-serif;
+	font-size: 2em;
+	font-style: italic;
+	font-weight: bold;
+	text-align: left;
+	color: brown;
+}
+
+
+.tous_les_projets h2{
+	font-family: 'Raleway', sans-serif;
+	text-align: left;
+	color: brown;
+}
+
+
+#info_archi{
+	width: 300px;
+	height: 300px;
+	float: left;
+}
+
+
+#info_archi a:link{
+	text-decoration: none;
+	color: #582900;
+}
+
+
+#info_archi a:hover{
+	background-color: black;
+	color: orange;
+}
+
+
+#info_archi a:visited{
+	text-decoration: none;
+	color: #582900;
+}
+
+
+#photo_archi{
+	width: 250px;
+	height: 300px;
+	float: left;
+}
+
+
+#photo_archi img{
+	width: 225px;
+	height: 275px;
+}
+
+
+#info_architecte{
+	width: 400px;
+	height: 360px;
+	float: left;
+	padding-left: 150px;
+	background-color: lightgrey;
+}
+
+
+#info_architecte a:link{
+	text-decoration: none;
+	color: #582900;
+}
+
+
+#info_architecte a:hover{
+	background-color: black;
+	color: orange;
+}
+
+
+#info_architecte a:visited{
+	text-decoration: none;
+	color: #582900;
+}
+
+
+#photo_architecte{
+	width: 350px;
+	height: 360px;
+	padding-right: 150px;	
+	background-color: lightgrey;
+}
+
+
+#photo_architecte img{
+	width: 300px;
+	height: 350px;
+	float: right;
+	margin-top: 5px;
+	padding-bottom: 5px;
+}
+
+
+#presentation_architecte{
+	width: 750px;
+	height: 100%;
+	text-align: justify;
+	padding-left: 150px;
+	padding-right: 150px;
+	background-color: lightgrey;
+}
+
+
+.bandef img{
+	width: 250px;
+	height: 100px;
+	margin: 2px;
+}
+
+
+#menu_projets{
+	background-color: #5B3500;
+	width: 130px;
+	height: 1500px;
+	text-align: left;
+	position: relative;
+	float: left;
+	opacity: 0.8;
+}
+
+
+ul#menu_projets li{
+	display: block;
+	font-family: 'Raleway', sans-serif;
+	text-align: left;
+	margin-left: 0px;
+	margin-right: 2px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+
+ul#menu_projets a:link{
+	text-decoration: none;
+	color: white;
+}
+
+
+ul#menu_projets a:visited{
+	text-decoration: none;
+	color: white;
+}
+
+
+ul#menu_projets a:hover{
+	text-decoration: none;
+	color: orange;
+}
+
+
+#menu_projets:hover #sous_menu{
+	display: block;
+	left: 0;
+}
+
+
+#sous_menu{
+	display: none;
+}
+
+
+#sous_menu ul{
+	width: 100px;
+	left: -999em;
+	position: relative;
+}
+
+
+.transition_second{
+	transition: width 1s, height 1s, 0.5s;
+}
+
+
+.transition_second:hover{
+	transform:scale(1.1,1.1);
+}
+
+
+header h2{
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 2em;;
+	color: brown;
+	margin-top: 10px;
+}
+
+
+.galerie img{
+	width: 500px;
+	height: 250px;
+}
+
+
+.c1{
+	width: 49%;
+	text-align: center;
+}
+
+
+.c2{
+	width: 49%;
+	text-align: center;
+}
+
+
+.c3{
+	width: 49%;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	color: #5B3500;
+}
+
+
+.c4{
+	width: 49%;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	color: #5B3500;
+}
+
+
+.titre_contact{
+	color: #5B3500;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	position: relative;
+	margin-top: 70px;
+}
+
+
+.formulaire{
+	width: 97%;
+	height: 100%;
+	background-color: lightgrey;
+	text-align: center;
+	position: relative;
+	margin: 15px;
+	margin-top: 50px;
+}
+
+
+#column1{
+	width: 42%;
+	float: left;
+	text-align: right;
+	margin-right: 5px;
+
+}
+
+
+#column2{
+	width: 57%;
+	float: right;
+	text-align: left;
+	margin-left: 5px;
+
+}
+
+
+footer{
+	text-align: center;
+	text-decoration: none;
+	color: #FFC36E;
+	background-color: #582900;
+}
+
+
+footer a:link{
+	text-align: center;
+	text-decoration: none;
+	color: #FFC36E;
+	background-color: #582900;
+}
+
+
+footer a:hover{
+	text-align: center;
+	text-decoration: none;
+	color: #FFC36E;
+	background-color: #582900;
+}
+
+
+footer a:visited{
+	text-align: center;
+	text-decoration: none;
+	color: #FFC36E;
+	background-color: #582900;
+}
